@@ -1,3 +1,9 @@
-import validator from './validator.js';
+function numeroTarjeta(){
 
-console.log(validator);
+    const tarjeta=document.getElementById("numeroTc");
+    if(tarjeta.value==("2")){
+        console.log("prueba");
+        alert("prueba");
+    }
+    }
+    

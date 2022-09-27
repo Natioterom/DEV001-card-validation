@@ -1,14 +1,51 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Validation Card</title>
+    <link href="style.css" rel="stylesheet">
+    </head>
+<body>
+
+    <header>
+        <div class="container logo-nav">
+            <a href="#" class="logo"> NatiOm</a>
+                  <nav class="menu">
+            <ul>
+                <li><a href="#">Indice</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+         </nav>
+        </div>
+    </header>
+
+<form class="pago" id="F1">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRakLu41LZ5NyaNZfhHD3C4775fqElzeAjpLg&usqp=CAU") alt="tarjeta">
+    <h1> Pago en linea </h1>
+    <p> Ingresa los números de tu tarjeta para comprobar que sea una tarjeta válida</p>
+    <input type="text" name="numeroTc"  placeholder=" Ej:4966 7605 7020 1123"  id="numeroTc" required>
+   <div class="boton">
+    <button  onclick="numeroTarjeta()"> Validar </button>
+   </div>
+</form>
+           
+      <div class="texto">
+        <h2>¿Como saber si una tarjeta de crédito es válida?</h2>
+        <p>Todas las tarjetas tienen un número distinto y este número se valida <br> por el algoritmo de Luhn</p>
+        <li> El primer número corresponden a la entidad emisora de la tarjeta.</li>
+        <li> Los 5 números posteriores corresponden a la entidad Bancaria y país de origen.</li>
+        <li> El último número es el dígito de control o validación.</li>
+
+      </div>   
+    
+
+<script src="index.js">
+
+</script>
+<footer> Página de prueba de validación de Tarjetas Laboratoria (P1).</footer>
+</body>
+
 </html>
