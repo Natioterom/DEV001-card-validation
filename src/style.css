@@ -1,0 +1,93 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(36, 36, 36);
+    margin:0;     
+    background-image:url(data:image/jpeg;base64,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);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+header{
+    background: rgb(97, 94, 94);
+    padding: 20px;   
+   }
+
+.logo-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*Flex box (en vez de usar float), con space between los elementos flex se van hacia los costados*/
+    }
+.logo{   
+   text-decoration: none;
+   color: antiquewhite;
+   letter-spacing: 10px;
+   font-size: 30px;
+   font-family: Georgia;
+}
+  .menu ul{
+margin:0;
+padding:0;
+list-style: none;
+}
+.menu ul li{
+   display:inline-block;
+     /*Los elementos de la lista se veran uno al lado del otro*/
+}
+.menu a{
+ text-decoration: none;
+ color: antiquewhite;
+ padding: 10px;
+ display: block;
+ }
+.menu a:hover{
+    background-color: rgb(203, 164, 239);
+    border-radius: 10px;
+}
+.pago{
+ /* display: flex;
+  justify-content:center;
+  flex-direction: column;*/
+  margin-left: 50px;
+  padding: 40px;
+}
+.pago img{
+  float: left;
+  height: 40px;
+  width: 40px;
+  padding:20px;
+}
+.pago h1{
+  color: rgb(18, 90, 223);
+  }
+
+  #numerotc{
+    margin-left:80px;
+    height: 30px;
+    border-radius: 6px;    
+    text-align: center;
+  }
+  .boton button{
+   margin-top: 30px;
+  margin-left: 80px;
+  font-size: 1rem;
+  font-weight:bold;
+  color:rgb(245, 245, 220);
+ /* background-color: rgb(92, 138, 245); */
+   width:100px;
+  border-radius: 20px;
+  border:none;
+  cursor: pointer;
+  background-image: linear-gradient(to left, rgb(81, 81, 228)50%, rgb(50, 205, 63) 50%);
+  background-repeat: no-repeat;
+  background-size: 200%;
+  background-position: right;
+  transition:background-position .2s  ease;
+     }  
+
+    .boton button:hover{
+      background-position: left;
+      color:black;
+     }
+  /*.boton button:hover{
+     background-color: yellowgreen;
+ }*/
