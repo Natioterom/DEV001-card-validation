@@ -45,14 +45,43 @@ header{
           background-color: rgb(203, 164, 239);
           border-radius: 10px;
       }
-  .pago h1{
+.laptop img{
+  width: 400px;
+  height: 400px;
+  float:left;
+  margin-left: 300px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.laptop h2{
+  margin-top:25px;
+  font-size:50px;
+  font-size:1.3rem;
+  position:absolute;
+  bottom:100px;
+  right:40px;
+  left:300px;
+  background-color:rgb(113, 187, 232)
+}
+.laptop h3{
+   margin-top:25px;
+  font-size:50px;
+  font-size:1.3rem;
+  position:absolute;
+   bottom:100px;
+  right:20px;
+  left:580px;
+}
+    
+ .pago h1{
 color: rgb(43, 9, 136);
 text-align: center;
+margin-right: 400px;
 }
 #tarjeta img{
   max-height: 40px;
   max-width: 40px;
-  float: right;
+  float:inherit;
 }
 .card{
 align-items: center;

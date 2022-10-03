@@ -33,5 +33,6 @@ function logos(){
        const masterd= document.createElement("img");
        masterd.src="tarjeta mastercard.png";
        logo.appendChild(masterd)
+       
    } 
 }
