@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Validation Card</title>
+    <link href="style.css" rel="stylesheet">
+    </head>
+<body>
+
+    <header>
+        <div class="logo-nav">
+            <a href="#" class="logo"> NatiOm</a>
+                  <nav class="menu">
+            <ul>
+                <li><a href="#">Indice</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+         </nav>
+        </div>
+    </header>
+  
+    <div class="laptop">
+        <img src="laptop.png">
+        <h2> Total:</h2>
+        <h3>$1.078.990</h3>
+       </div>
+
+    <div class="formulario">
+        <form class="pago" id="F1">
+         <h1> Pago en linea </h1>
+         <div class=" card">
+         <label for="numeroTc"> <b>Número de tarjeta</b></label>
+         <div id="tarjeta" img src="tarjeta mastercard.png tarjeta visa.png"></div>
+         <input type="text"   placeholder=" Ej:4966 7605 7020 1123"  id="numeroTc"  maxlength="16" >
+         <label for="nombre"> <b>Nombre </b></label>
+         <input type="text"  placeholder=" Nombre tarjeta"  id="nombre" >
+         <label for="fecha" > <b>Fecha expiración (mm/aa) </b></label>
+         <input mode="numeric" maxlength="5"  id="fecha" placeholder="mm/aa">
+         <label for="cvv"> <b>Código validación</b></label>
+         <input type="text"  placeholder="cvv"  id="cvv"  maxlength="3">
+       </div>
+        <div class="boton">
+    <button id="validar"> Pagar </button>
+   </div>
+</form>
+</div>  
+
+<script src="index.js" type="module">
+
+</script>
+<footer> Página de prueba de validación de Tarjetas Laboratoria (P1).</footer>
+</body>
+
+</html>
