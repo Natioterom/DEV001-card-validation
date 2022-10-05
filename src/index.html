@@ -10,7 +10,7 @@
 <body>
 
     <header>
-        <div class="container logo-nav">
+        <div class="logo-nav">
             <a href="#" class="logo"> NatiOm</a>
                   <nav class="menu">
             <ul>
@@ -31,18 +31,19 @@
     <div class="formulario">
         <form class="pago" id="F1">
          <h1> Pago en linea </h1>
-         <div class=" container card">
-         <label for="numeroTc"> Número de tarjeta</label>
-         <div id="tarjeta" img src="tarjeta mastercard.png" img src="tarjeta visa.png"></div>
-         <input type="text"  placeholder=" Ej:4966 7605 7020 1123"  id="numeroTc" required maxlength="16">
-         <label for="nombre"> Nombre tarjeta</label>
-         <input type="text"  placeholder=" Nombre tarjeta"  id="nombre" required>
-         <label for="fecha"> Fecha expiración (mm/aa)</label>
-         <input mode="numeric"   id="fecha" required  placeholder="mm/aa">
-         <label for="cvv"> Código validación</label>
-         <input type="text"  placeholder="cvv"  id="cvv" required maxlength="3">
+         <div class=" card">
+         <label for="numeroTc"> <b>Número de tarjeta</b></label>
+         <div id="tarjeta" img src="tarjeta mastercard.png tarjeta visa.png"></div>
+         <input type="text"   placeholder=" Ej:4966 7605 7020 1123"  id="numeroTc" required maxlength="16"  >
+         <label for="nombre"> <b>Nombre </b></label>
+         <input type="text"  placeholder=" Nombre tarjeta"  id="nombre" >
+         <label for="fecha"> <b>Fecha expiración (mm/aa) </b></label>
+         <input mode="numeric"   id="fecha" placeholder="mm/aa">
+         <label for="cvv"> <b>Código validación</b></label>
+         <input type="text"  placeholder="cvv"  id="cvv"  maxlength="3">
+         </div>
         <div class="boton">
-    <button id="validar" > Pagar </button>
+    <button id="validar"> Pagar </button>
    </div>
 </form>
 </div>  
