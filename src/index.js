@@ -14,8 +14,7 @@ const cvv = document.getElementById("cvv");
 btn.addEventListener("click",(e)=>{
     e.preventDefault();
     let numCard = document.querySelector("input");
-    if(numCard.value ==""){
-            if(nombre.value ==""){
+        if(nombre.value ==""){
         alert("Debes ingresar tú Nombre")
         }
     if(fecha.value ==""){
@@ -24,10 +23,10 @@ btn.addEventListener("click",(e)=>{
         if(cvv.value ==""){
         alert("Debes ingresar el Número de CVV")
              }  
-             alert("Debes ingresar el Número de Tarjeta")
-             return;
-         } 
-                                           
+             if(numCard.value ==""){
+                alert("Debes ingresar el Número de Tarjeta")
+                return;
+                }    
     else{
      let valido=validator.isValid(numCard.value);
      if(valido){
@@ -37,6 +36,7 @@ btn.addEventListener("click",(e)=>{
     }
        }
    });
+
 //Funcion para enmascarar Números
 btn.addEventListener("click",(e)=>{
     e.preventDefault();
