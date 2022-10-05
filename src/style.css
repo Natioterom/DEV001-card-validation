@@ -54,21 +54,21 @@ header{
   border-radius: 10px;
 }
 .laptop h2{
+  font-family:'Arial Narrow Bold', sans-serif;
   margin-top:25px;
-  font-size:50px;
-  font-size:1.3rem;
+  font-size:1.6rem;
   position:absolute;
-  bottom:100px;
+  bottom:90px;
   right:40px;
   left:300px;
   background-color:rgb(113, 187, 232)
 }
 .laptop h3{
+  font-family:'Arial Narrow Bold', sans-serif;
    margin-top:25px;
-  font-size:50px;
-  font-size:1.3rem;
-  position:absolute;
-   bottom:100px;
+   font-size:1.6rem;
+   position:absolute;
+   bottom:88px;
   right:20px;
   left:580px;
 }
@@ -94,6 +94,7 @@ float:center;
 padding: 6px;
 font-family: 'Lucida Sans';
 
+
 }
 input{
   appearance: none;
@@ -107,6 +108,7 @@ input{
   }
 
 .boton button{
+  margin-left: 40px;
  margin-top: 10px;
  margin-bottom: 10px;
  font-size: 18px;
