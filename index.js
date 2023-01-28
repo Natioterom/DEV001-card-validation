@@ -11,8 +11,6 @@ const nombre = document.getElementById("nombre");
 const fecha = document.getElementById("fecha");
 const cvv = document.getElementById("cvv");
 
-
-
 btn.addEventListener("click", (e) => {
     e.preventDefault();
     let numCard = document.querySelector("input");

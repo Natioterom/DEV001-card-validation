@@ -21,33 +21,34 @@
          </nav>
         </div>
     </header>
-  
+  <div class = "contenedor-principal">
     <div class="laptop">
-        <img src="laptop.png">
-        <h2> Total:</h2>
-        <h3>$1.078.990</h3>
+        <img src="pngwing.com.png">
+        <h2> Laptop lenovo</h2>
+        <h3> $1.708.990</h3>    
+        <p> Procesador Intel® Core™ i3-10110U de 10ma Generación (2.10 GHz hasta 4.10 GHz). <br>
+         Windows 11 Home in S mode Single Language 64.<br>
+          Memoria de 4 Gb DDR4.2667 MHz(Soldado)</p>
        </div>
 
     <div class="formulario">
         <form class="pago" id="F1">
          <h1> Pago en linea </h1>
          <div class=" card">
-         <label for="numeroTc"> <b>Número de tarjeta</b></label>
          <div id="tarjeta" img src="tarjeta mastercard.png tarjeta visa.png"></div>
+         <div class = "contenedor-inputs">
          <input type="text"   placeholder=" Ej:4966 7605 7020 1123"  id="numeroTc"  maxlength="16" >
-         <label for="nombre"> <b>Nombre </b></label>
          <input type="text"  placeholder=" Nombre tarjeta"  id="nombre" >
-         <label for="fecha" > <b>Fecha expiración (mm/aa) </b></label>
          <input mode="numeric" maxlength="5"  id="fecha" placeholder="mm/aa">
-         <label for="cvv"> <b>Código validación</b></label>
          <input type="text"  placeholder="cvv"  id="cvv"  maxlength="3">
+         </div>
        </div>
         <div class="boton">
     <button id="validar"> Pagar </button>
    </div>
 </form>
 </div>  
-
+</div>
 <script src="index.js" type="module">
 
 </script>
