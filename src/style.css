@@ -1,18 +1,24 @@
+*,
+*::after,
+*::before{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color:rgb(0, 0, 0);
-  margin:0; 
-  background-image:url(data:image/jpeg;base64,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);  
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 80px;
-  min-height: 90vh;
-     }
-
+  color:rgb(0, 0, 0);   
+  background-color: rgb(232, 232, 232);
+  height: 100vh;
+  width:fit-content;
+}
 header{
   background: rgb(97, 94, 94);
-  padding: 20px;   
- }
+  padding: 20px; 
+  width: 100%; 
+  position: fixed;
+  top:0px;
+  }
 
 .logo{   
  text-decoration: none;
@@ -21,6 +27,7 @@ header{
  font-size: 30px;
  }
  .logo-nav{
+  width: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,34 +52,70 @@ header{
           background-color: rgb(203, 164, 239);
           border-radius: 10px;
       }
+.contenedor-principal{
+        display: flex;
+        flex:1  1;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 60px;
+      }
+.formulario{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  background-color: white;
+  border-radius: 6px;
+  border:2px solid rgb(59, 57, 57);
+  padding:4px 60px;
+  box-shadow:10px 10px 5px 0px rgba(0,0,0,0.75) ;
+  margin-left: 200px;
+}
+.contenedor-inputs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding:60px;
+}
+.laptop{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 .laptop img{
   width: 400px;
   height: 400px;
-  float:left;
-  margin-left: 300px;
-  margin-top: 30px;
-  border-radius: 10px;
+  margin-bottom:60px ;
 }
+
 .laptop h2{
-  font-family:'Arial Narrow Bold', sans-serif;
-  margin-top:25px;
+  position: absolute;
+   top: 380px;
+  font-family:lato, sans-serif;
   font-size:1.6rem;
-  position:absolute;
-  bottom:90px;
-  right:40px;
-  left:300px;
-  background-color:rgb(113, 187, 232)
+  margin-right:200px;
 }
-.laptop h3{
-  font-family:'Arial Narrow Bold', sans-serif;
-   margin-top:25px;
-   font-size:1.6rem;
-   position:absolute;
-   bottom:88px;
-  right:20px;
-  left:580px;
+.laptop h3 {
+  position: absolute;
+  margin-left: 200px;
+  top:380px;
+  color:rgb(71, 71, 153);
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
 }
-    
+.laptop p{
+  position: absolute;
+  color:rgb(90, 88, 88);
+  top:420px;
+  margin-left:30px;
+} 
  .pago h1{
 color: rgb(43, 9, 136);
 text-align: center;
@@ -84,17 +127,15 @@ margin-right: 400px;
   float:inherit;
 }
 .card{
+display:flex;
 align-items: center;
-float:right;
+justify-content: center;
 margin-right: 400px;
 }
-label{
-display:block;
-float:center;
-padding: 6px;
-font-family: 'Lucida Sans';
-
-
+.contenedor-inputs{
+  padding: 6px;
+  width: auto;
+  margin:40px;
 }
 input{
   appearance: none;
@@ -102,38 +143,39 @@ input{
   border-radius: 15px;
   border-bottom: 2px  solid rgb(162, 159, 159);
   padding: 6px;
-  margin-top: 2.5px;
-  position: relative;
+  margin: 6px;
   background-color: rgb(235, 228, 242);
   }
 
 .boton button{
-  margin-left: 40px;
+padding: 6px;
+font-weight: bold;
+ margin-left: 60px;
  margin-top: 10px;
  margin-bottom: 10px;
- font-size: 18px;
+ font-size: 20px;
 color:rgb(245, 245, 220);
 width:10rem;
 border-radius: 15px;
 border:none;
 cursor: pointer;
-background-image: linear-gradient(to left, rgb(43, 43, 248) 50%, rgb(14, 192, 14) 50%);
+background-image: linear-gradient(to left, rgb(63, 154, 103) 50%, rgb(240, 162, 51) 50%);
 background-repeat: no-repeat;
 background-size: 200%;
 background-position: right;
 transition:background-position .4s  ease;
    }  
-
-  .boton button:hover{
+.boton button:hover{
     background-position: left;
     color:black;
    }
-   footer{
+
+  footer{
+position: fixed;
 background: rgb(97, 94, 94);
 color: antiquewhite;
 text-align: right;
-width: 98.5%;
-bottom: 0;
-position: absolute;
+width:100%;
+bottom:0px;
 padding:8px;
 }
